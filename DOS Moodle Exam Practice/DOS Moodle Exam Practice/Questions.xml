@@ -1,0 +1,1489 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Questions>
+	<Question>
+		<ENText>1 mutex is sufficient to produce deadlock.</ENText>
+		<ROText>1 mutex e suficient pentru a produce un deadlock.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>1 thread is sufficient to produce deadlock.</ENText>
+		<ROText>1 thread este suficient pentru a produce deadlock.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>2 threads are required to produce deadlock.</ENText>
+		<ROText>2 thread-uri sunt necesare pentru a produce deadlock.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>| is an OS pipe.</ENText>
+		<ROText>| este un pipe al SO.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>A client has to reserve a port number in order to be able to communicate through sockets.</ENText>
+		<ROText>Un client trebuie sa rezerve un port pentru a putea comunica prin sockets.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>A critical section is a memory area.</ENText>
+		<ROText>O sectiune critica e o zona de memorie.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>A critical section is a piece of code that accesses a shared resource.</ENText>
+		<ROText>O sectiune critica este o secventa de cod ce acceseaza o resursa partajata.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>A mutex is a binary semaphore.</ENText>
+		<ROText>Un mutex este un semafor binar.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>A pipe is a LIFO type structure.</ENText>
+		<ROText>Un pipe este o structura de tip LIFO.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>A child process never occupies more memory than a thread.</ENText>
+		<ROText>Un proces fiu nu ocupa niciodata mai multa memorie ca un thread.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>A mutex is a locking mechanism.</ENText>
+		<ROText>Mutexul este un mecanism de blocare.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>A mutex is initially locked.</ENText>
+		<ROText>Un mutex este initial blocat.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>A mutex is initially unlocked.</ENText>
+		<ROText>Un mutex este initial deblocat.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>A pipe is a FIFO structure.</ENText>
+		<ROText>Un pipe este o structura de tip FIFO.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>A pipe must be opened at both ends before data can be passed.</ENText>
+		<ROText>Un pipe trebuie deschis la ambele capete inainte sa se poata comunica prin el.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>A process has to close the unused end of a pipe.</ENText>
+		<ROText>Un process trebuie sa inchide capatul nefolosit al unui pipe.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>A process is a running program.</ENText>
+		<ROText>Un proces este un program in executie.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>A process sometimes contains only one thread.</ENText>
+		<ROText>Un proces uneori are doar un thread.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>A regular FIFO can connect any 2 processes on the same machine.</ENText>
+		<ROText>Un FIFO poate conecta orice 2 procese de pe aceeasi masina.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>A regular pipe can connect any 2 processes.</ENText>
+		<ROText>Un pipe poate conecta orice 2 procese.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>A regular pipe can connect any 2 processes on the same machine.</ENText>
+		<ROText>Un pipe poate conecta orice 2 procese de pe aceeasi masina.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>A regular pipe can connect any 2 related processes.</ENText>
+		<ROText>Un pipe poate conecta orice 2 procese inrudite.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>A semaphore is a generalized form of mutex</ENText>
+		<ROText>Un semafor este o forma generalizata de mutex</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>A server has to reserve a port number in order to be able to communicate through sockets.</ENText>
+		<ROText>Un server trebuie sa rezerve un port pentru a putea comunica prin socket.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>A signal can be sent from a child to its parent.</ENText>
+		<ROText>Un semnal poate fi trimis de la fiu la parinte.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>A signal can be sent from a process to itself.</ENText>
+		<ROText>Un semnal poate fi transmis de la un proces la el insusi.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>A signal can be sent from a thread to itself.</ENText>
+		<ROText>Un semnal poate fi transmis de la un thread la el insusi.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>A signal can't be sent from a process to itself.</ENText>
+		<ROText>Un semnal nu poate fi transmis de la un proces la el insusi.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>A signal can't be sent from a thread to itself.</ENText>
+		<ROText>Un semnal nu poate fi transmis de la un thread la el insusi.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>A signal can not be sent from a child to its parent.</ENText>
+		<ROText>Un semnal nu poate fi trimis de la fiu la parinte.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>A signal is not a software interrupt.</ENText>
+		<ROText>Un semnal nu este o intrerupere software.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>A socket address is an IP address.</ENText>
+		<ROText>Un socket este o adresa IP.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>A socket client has to receive data in order to be able to send information to the server.</ENText>
+		<ROText>Un client socket trebuie mai intai sa primeasca date ca sa poata trimite.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>A socket server has to send data in order to be able to receive information from the client.</ENText>
+		<ROText>Un server trebuie mai intai sa trimita date pentru a putea primi informatii de la client.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>A TCP socket client has to send data in order to be able to receive information from the server.</ENText>
+		<ROText>Un client TCP trebuie mai intai sa trimita date ca sa poata primi.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>A TCP socket server has to receive data in order to be able to send information to the client.</ENText>
+		<ROText>Un server TCP trebuie mai intai sa primeasca date ca sa poata sa trimita.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>A thread can exist outside a process.</ENText>
+		<ROText>Un thread poate exista in afara unui proces.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>A thread has a unique id in its process.</ENText>
+		<ROText>Fiecare thread are un id unic in proces.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>A thread may occupy more memory than a child process.</ENText>
+		<ROText>Un thread poate ocupa mai multa memorie ca un proces fiu.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>An UDP socket client has to receive data in order to be able to send information to the server.</ENText>
+		<ROText>Un client UDP trebuie mai intai sa primeasca date ca sa poata trimite.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>A UDP socket client has to send data in order to be able to receive information from the server.</ENText>
+		<ROText>Un client UDP trebuie mai intai sa trimita date ca sa poata primi.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>A UDP socket server has to receive data in order to be able to send information to the client.</ENText>
+		<ROText>Un server UDP trebuie mai intai sa primeasca date ca sa poata sa trimita.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>accept() appears in TCP sockets.</ENText>
+		<ROText>accept() apare in socketuri TCP.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>accept() appears in UDP sockets.</ENText>
+		<ROText>accept() apare in socketuri UDP.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>AF_INET is the address family for TCP.</ENText>
+		<ROText>AF_INET este familia de adrese pentru TCP.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>After bind() a TCP server can receive/send data.</ENText>
+		<ROText>Dupa bind() un server TCP poate trimite/primi date.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>After bind() a UDP server can send data.</ENText>
+		<ROText>Dupa bind() un server UDP poate trimite date.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>All concurrent programs are distributed.</ENText>
+		<ROText>Toate programele concurente sunt distribuite.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>All concurrent programs are parallel.</ENText>
+		<ROText>Toate programele concurente sunt paralele.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>All sockets are INET.</ENText>
+		<ROText>Toate socketurile sunt de tip INET.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>All sockets are TCP.</ENText>
+		<ROText>Toate socketurile sunt de tip TCP.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>Amdahl's law gives us the speedup of a parallel algorithm in relation to its sequential implementation.</ENText>
+		<ROText>Legea lui Amdahl ne da cresterea in viteza a unui algoritm implementat in paralel fata de implementarea secventiala.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>An IP address is represented on 32 bits.</ENText>
+		<ROText>O adresa IP se reprezinta pe 32 de biti.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>An IP address is represented on 4 bytes.</ENText>
+		<ROText>O adresa IP se reprezinta pe 4 octeti.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>bind() appears in TCP sockets.</ENText>
+		<ROText>bind() apare in socketuri TCP.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>bind() appears in UDP sockets.</ENText>
+		<ROText>bind() apare in socketuri UDP</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>bind() is used to reserve a port.</ENText>
+		<ROText>bind() se foloseste pentru a rezerva un port.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>Concurrent programming does not require synchronisation.</ENText>
+		<ROText>Programarea concurenta nu necesita sincronizare.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>Files can be used as IPC.</ENText>
+		<ROText>Fisierele pot fi folosite drept IPC.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>Condition variables are behaving like mutexes.</ENText>
+		<ROText>Condition variables se comporta ca si mutex-urile.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>Deadlock is a thread synchronization problem.</ENText>
+		<ROText>Deadlock este o problema de sincronizare a threadurilor.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>Deadlock can be avoided by eliminating cycles in the resource dependence graph.</ENText>
+		<ROText>Deadlock poate fi evitat prin eliminarea ciclurilor in graful de dependinta al resurselor.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>Distributed programming is concurrent programming on multiple machines.</ENText>
+		<ROText>Programarea distribuita este programare concurenta pe mai multe masini.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>Distributed programming doesn't require synchronisation.</ENText>
+		<ROText>Programarea distribuita nu necesita sincronizare.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>Distributed programming is used in Massively Multiplayer Online Games.</ENText>
+		<ROText>Programarea distribuita este folosita la Massively Multiplayer Online Games.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>Distributed programming requires synchronisation.</ENText>
+		<ROText>Programarea distribuita necesita sincronizare.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>Email and WWW are Internet services.</ENText>
+		<ROText>Email si WWW sunt servicii de Internet.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>Emails can be used for file transfer.</ENText>
+		<ROText>Emailurile pot fi folosite pentru transfer de fisiere.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>Every Linux process has a parent process.</ENText>
+		<ROText>Fiecare proces Linux are un proces parinte.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>Every process has a unique id in the system.</ENText>
+		<ROText>Fiecare proces are un id unic in sistem.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>Every Linux process except process 0 has a parent process.</ENText>
+		<ROText>Fiecare proces Linux in afara de procesul 0 are un proces parinte.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>Exec calls can be used to execute external programs.</ENText>
+		<ROText>Aplurile exec pot fi folosite pentru a executa programe externe.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>FIFO can be used to communicate between 2 threads of the same process.</ENText>
+		<ROText>Pentru a comunica intre 2 threaduri ale aceluiasi proces putem sa folosim FIFO.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>FIFO can't be used to communicate between 2 threads of the same process.</ENText>
+		<ROText>Pentru a comunica intre 2 threaduri ale aceluiasi proces nu putem sa folosim FIFO.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>In order to communicate between 2 threads of the same process it is required to use pipes.</ENText>
+		<ROText>Pentru a comunica intre 2 threaduri ale aceluiasi proces este necesar sa folosim pipes.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>FIFO is a valid file type in linux.</ENText>
+		<ROText>FIFO este un tip valid de fisier linux.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>FIFO is not a valid file type in linux.</ENText>
+		<ROText>FIFO nu este un tip valid de fisier linux.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>FIFO is usually the fastest IPC.</ENText>
+		<ROText>FIFO este de obicei cel mai rapid IPC.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>fork() is used to create a new thread.</ENText>
+		<ROText>fork() se foloseste pentru a crea un thread nou.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>fork() returns 0 inside a child process.</ENText>
+		<ROText>fork() returneaza 0 in procesul fiu.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>HTML stands for Hyper Text Markup Language.</ENText>
+		<ROText>HTML=Hyper Text Markup Language.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>ipcrm can be used to delete a message queue.</ENText>
+		<ROText>ipcrm poate fi folosit pentru a sterge o coada de mesaje.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>getpid() does not return 0 inside a child process.</ENText>
+		<ROText>getpid() nu returneaza 0 in procesul fiu.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>Heap and stack grow in opposite direction in a process.</ENText>
+		<ROText>Heap si stiva cresc in directii diferite in proces.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>Heap and stack grow in the same direction in a process.</ENText>
+		<ROText>Heap si stiva cresc in aceeasi directie intr-un proces.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>If a program that uses a FIFO ends, the FIFO is not deleted.</ENText>
+		<ROText>Daca un program ce foloseste FIFO se termina, FIFO nu va fi sters.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>If a program that uses a message queues ends, the message queue is not deleted.</ENText>
+		<ROText>Daca un program care foloseste cozi de mesaje e finalizat, coada de mesaje nu este stearsa.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>If a program that uses a pipe ends, the pipe is deleted.</ENText>
+		<ROText>Daca un program ce foloseste un pipe se termina, pipe-ul va fi sters.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>If a program that uses a pipe ends, the pipe is not deleted.</ENText>
+		<ROText>Daca un program ce foloseste un pipe se termina, pipe nu va fi sters.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>In a client-server system, the client and the server always run on different machines.</ENText>
+		<ROText>Intr-un sistem client server, clientul si serverul ruleaza intotdeauna pe masini diferite.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>In distributed programming 2 tasks run in parallel and communicate with each other.</ENText>
+		<ROText>In programarea distribuita 2 taskuri sunt rulate in paralel si comunica intre ele.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>In parallel programming 2 apps run simultaneously and communicate with each other.</ENText>
+		<ROText>In programarea paralela 2 aplicatii ruleaza in parlel si comunica intre ele.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>In pipe(p) p[0] is for writing.</ENText>
+		<ROText>In pipe(p) p[0] e pentru scriere.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>In pipe(p) p[0] is for reading.</ENText>
+		<ROText>In pipe(p) p[0] e pentru citire.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>In pipe(p) p[1] is for reading.</ENText>
+		<ROText>In pipe(p) p[1] este pentru citire.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>IP stands for Internet Protocol.</ENText>
+		<ROText>IP inseamna Internet Protocol.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>IPC stands for inter-process communication.</ENText>
+		<ROText>IPC inseamna inter-process communication.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>IPC stands for inter-process cooperation.</ENText>
+		<ROText>IPC inseamna inter-process cooperation.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>listen() appears in TCP sockets.</ENText>
+		<ROText>listen() apare in socketuri TCP.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>Listen is performed by the TCP client.</ENText>
+		<ROText>Listen se apeleaza in clientul TCP.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>Listen is performed by the UDP client.</ENText>
+		<ROText>Listen se apeleaza in clientul UDP.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>Livelock is a thread synchronization problem.</ENText>
+		<ROText>Livelock este o problema de sincronizare a threadurilor.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>Localhost is always 127.0.0.1.</ENText>
+		<ROText>Localhost este intotdeauna 127.0.0.1.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>Message queues are FIFO structures.</ENText>
+		<ROText>Cozile de mesaje sunt structuri de tip FIFO.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>Message queues can be identified by a key.</ENText>
+		<ROText>Cozile de mesaje se identifica printr-o cheie.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>Message queues can be used by related processes.</ENText>
+		<ROText>Cozile de mesaje pot fi folosite de procese inrudite.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>mkfifo creates a named pipe.</ENText>
+		<ROText>mkfifo creaza un pipe cu nume.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>msgrcv() is used to obtain a message from a message queue.</ENText>
+		<ROText>msgrcv() se foloseste pentru a obtine mesaje dintr-o coada.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>msgctl() is used to obtain a message from a message queue.</ENText>
+		<ROText>msgctl() se foloseste pentru a obtine mesaje dintr-o coada.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>Mutexes are used to prevent deadlock.</ENText>
+		<ROText>Mutexurile sunt folosite pentru a preveni deadlock.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>Mutual exclusion refers to a shared resource used by a single process/thread at a given time.</ENText>
+		<ROText>Excluderea mutuala inseamna ca o resursa partajata este folosita de un singur proces/thread la un moment dat.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>netstat can be used to check open ports.</ENText>
+		<ROText>netstat poate fi folosit pentru a verifica porturile deschise.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>Not all concurrent programs are distributed.</ENText>
+		<ROText>Nu toate programele concurente sunt distribuite.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>Not all distributed programs are concurrent.</ENText>
+		<ROText>Nu toate programele distribuite sunt concurente.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>Not all parallel programs are concurrent.</ENText>
+		<ROText>Nu toate programele paralele sunt concurente.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>Mutual exclusion refers to a shared resource used by a single process/thread.</ENText>
+		<ROText>Excluderea mutuala inseamna ca o resursa partajata este folosita de un singur proces/thread.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>Not all parallel programs are distributed.</ENText>
+		<ROText>Nu toate programele paralele sunt distribuite.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>Not all sockets are INET.</ENText>
+		<ROText>Nu toate socketurile sunt de tip INET.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>No thread can exist outside a process.</ENText>
+		<ROText>Un thread nu poate exista infara unui proces</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>Not all sockets are TCP.</ENText>
+		<ROText>Nu toate socketurile sunt de tip TCP.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>Only one thread can lock a mutex at a given time.</ENText>
+		<ROText>Doar un singur thread poate bloca un mutex la un moment dat.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>Parallel programs are less complex than sequential ones.</ENText>
+		<ROText>Programele paralele sunt mai putin complexe decat cele secventiale.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>Parallel programs are more complex than sequential ones.</ENText>
+		<ROText>Programele paralele sunt mai complexe decat cele secventiale.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>Parallel programming does not require synchronisation.</ENText>
+		<ROText>Programarea paralela nu necesita sincronizare.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>Parallel programming is possible on multi-core systems.</ENText>
+		<ROText>Programarea paralela este posibila pe sisteme multi-core.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>Parallel programming requires synchronisation.</ENText>
+		<ROText>Programarea paralela necesita sincronizare.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>pipe() returns -1 on error.</ENText>
+		<ROText>pipe() returneaza -1 in caz de eroare.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>Pipes only exist in C.</ENText>
+		<ROText>Pipe-urile exista doar in C.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>Pipes are required to communicate between 2 threads of the same process.</ENText>
+		<ROText>Pentru a comunica intre 2 threaduri ale aceluiasi proces este necesar sa folosim pipes.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>Pipes are unidirectional.</ENText>
+		<ROText>Pipe-urile sunt unidirectionale.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>Pipes are not bidirectional.</ENText>
+		<ROText>Pipes are not bidirectional.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>Pipes can be used from command line.</ENText>
+		<ROText>Pipe-urile pot fi folosite in linia de comanda.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>Pipes can be used to communicate between 2 threads of the same process.</ENText>
+		<ROText>Pentru a comunica intre 2 threaduri ale aceluiasi proces putem sa folosim pipes.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>popen() is used to create a named pipe.</ENText>
+		<ROText>popen() se foloseste pentru a crea un pipe cu nume.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>popen() creates a pipe.</ENText>
+		<ROText>popen() creeaza un pipe.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>popen() can be used to execute external programs.</ENText>
+		<ROText>popen() poate fi folosit pentru a executa programe externe.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>Port 25 is reserved for SMTP.</ENText>
+		<ROText>Portul 25 este rezervat pentru SMTP.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>The standard port for email service is 25.</ENText>
+		<ROText>Portul standard pentru serviciul de mail este 25.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>The port 443 is most often used by HTTPS.</ENText>
+		<ROText>Portul 443 este de obicei folosit de catre HTTPS.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>Port numbers are 16 bits unsigned integers.</ENText>
+		<ROText>Porturile sunt numere intregi fara semn reprezentate pe 16 biti.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>An IP address is represented on 16 bits.</ENText>
+		<ROText>O adresa IP e reprezentata pe 16 bits.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>UDP is called a connectionless, unreliable transport protocol.</ENText>
+		<ROText>UDP e vazut ca un protocol de transport cu conexiune permanenta care nu e de incredere.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>The port 143 is most often used by HTTPS</ENText>
+		<ROText>Portul 143 este de obicei folosit de catre HTTPS</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>In parallel programming 2 applications run in parallel and communicate with each other.</ENText>
+		<ROText>In programarea paralela 2 aplicatii ruleaza in parlel si comunica intre ele.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>Port numbers are 2 bytes long unsigned integers.</ENText>
+		<ROText>Porturile sunt numere intregi fara semn reprezentate pe 2 octeti.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>The first 1024 ports are reserved by convention, to identify specific services.</ENText>
+		<ROText>Primele 1024 de porturi sunt rezervate prin conventie, pentru a indentifica servicii specifice.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>Processes can be synchronised with mutex.</ENText>
+		<ROText>Procesele pot fi sincrincronizate prin mutex.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>Processes can't be synchronised with mutex.</ENText>
+		<ROText>Procesele nu pot fi sincrincronizate prin mutex.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>1 thread is sufficient to produce deadlock.</ENText>
+		<ROText>1 thread este suficient pentru a produce deadlock</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>Processes share the same heap.</ENText>
+		<ROText>Procesele partajeaza aceeasi zona de heap.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>Processes share the same stack.</ENText>
+		<ROText>Procesele partajeaza aceeasi zona de stiva.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>The TCP Protocol needs a permanent connection.</ENText>
+		<ROText>Protocolul TCP presupune o conexiune permanenta.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>pthread_join() starts the execution ot a specified thread.</ENText>
+		<ROText>pthread_join() lanseaza in executie un anume thread.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>pthread_join() waits for the specified thread to terminate.</ENText>
+		<ROText>pthread_join() asteapta terminarea unui anume thread.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>pthread_join will wait for all the threads to complete before returning.</ENText>
+		<ROText>pthread_join asteapta terminarea tuturor threadurilor.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>Race conditions and deadlocks occur due to same reason.</ENText>
+		<ROText>Race conditions si deadlocks au aceleasi cauze.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>Race conditions can be avoided using semaphores.</ENText>
+		<ROText>Race conditions pot fi evitate folosind semafoare.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>Race condition can exists in single threaded programming.</ENText>
+		<ROText>Race condition poate exista in programarea single-thread.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>Race conditions can't be avoided using semaphores.</ENText>
+		<ROText>Race conditions nu pot fi evitate folosind semafoare.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>Race conditions can't be avoided using mutexes.</ENText>
+		<ROText>Race conditions nu pot fi evitate folosind mutex.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>Race condition exists in multithreaded programming.</ENText>
+		<ROText>Race condition exista in programarea multithread.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>Race condition is a thread synchronization problem.</ENText>
+		<ROText>Race condition este o problema de sincronizare a threadurilor.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>read() from a pipe will block if pipe is empty.</ENText>
+		<ROText>read() dintr-un pipe gol va astepta.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>recvfrom() is used to obtain a message from a message queue.</ENText>
+		<ROText>recvfrom() se foloseste pentru a obtine mesaje dintr-o coada de mesaje.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>SCP can be used for file transfer.</ENText>
+		<ROText>SCP poate fi folosit pentru transfer de fisiere.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>recvfrom() is used to obtain a message from a socket.</ENText>
+		<ROText>recvfrom() se foloseste pentru a obtine un mesaj de pe socket.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>Semafoarele sunt folosite pentru a preveni deadlock.</ENText>
+		<ROText>Semaphores are used to prevent deadlock.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>Semaphores are particular cases of mutexes.</ENText>
+		<ROText>Semafoarele sunt cazuri particulare de mutex.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>Semaphores can be used to avoid concurrency problems when using both processes and threads.</ENText>
+		<ROText>Semafoarele pot fi folosite pentru rezolvarea problemelor de concurenta ale proceselor si ale threadurilor.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>Semaphores can't be used to avoid concurrency problems when using processes.</ENText>
+		<ROText>Semafoarele nu pot fi folosite pentru rezolvarea problemelor de concurenta ale proceselor.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>semget() este folosit pentru a accesa semafoare.</ENText>
+		<ROText>semget() is used to access semaphores.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>sem_post increments the value of the semaphore.</ENText>
+		<ROText>sem_post creste valoarea semaforului.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>sem_wait() blocks if the value of the semaphore is positive.</ENText>
+		<ROText>sem_wait() asteapta daca valoarea semaforului este pozitiva.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>sem_wait() does not block if the value of the semaphore is negative.</ENText>
+		<ROText>sem_wait() nu asteapta daca valoarea semaforului este negativa.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>sem_wait() does not block if the value of the semaphore is positive.</ENText>
+		<ROText>sem_wait() nu asteapta daca valoarea semaforului este pozitiva.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>Sequential programs are usually faster than parallel ones.</ENText>
+		<ROText>Programele secventiale sunt de obicei mai rapide decat cele paralele.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>Serviciul HTTP ruleaza pe portul 80.</ENText>
+		<ROText>The HTTP service runs on port 80.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>shmat() can be used to allocate a shared memory segment.</ENText>
+		<ROText>shmat() poate fi folosit pentru a aloca o zona de memorie partajata.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>shmat() can't be used to allocate a shared memory segment.</ENText>
+		<ROText>shmat() nu poate fi folosit pentru a aloca un segment shared memory.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>Shared memory can be used to communicate between 2 threads of the same process.</ENText>
+		<ROText>Pentru a comunica intre 2 threaduri ale aceluiasi proces putem sa folosim cozi de memorie.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>shmat() attaches the shared memory segment to </ENText>
+		<ROText>shmat() ataseaza segmentul de memorie partajata la spatiul de adresare al procesului.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>Shared memory segments can only be used by related processes.</ENText>
+		<ROText>Zonele de memorie partajata pot fi folosite doar de procese inrudite.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>Shared memory areas can be used by related processes.</ENText>
+		<ROText>Zonele de memorie partajata pot fi folosite de procese inrudite.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>shmget() creates a message queue.</ENText>
+		<ROText>shmget() creaza o coada de mesaje.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>semget() is used to access semaphores.</ENText>
+		<ROText>semget() se foloseste pentru a aceesa semafoare.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>shmget() cannot be used to allocate shared memory.</ENText>
+		<ROText>shmget() nu poate fi folosit pentru a aloca o zona de memorie partajata.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>semget() is used to create semaphores.</ENText>
+		<ROText>semget() se foloseste pentru a crea semafoare.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>signal() is used to send a signal from one process to another. A signal is a software interrupt.</ENText>
+		<ROText>signal() este folosit pentru a trimite un semnal de la un proces la altul. Un semnal este o intrerupere software.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>Signals are not a valid IPC mechanism.</ENText>
+		<ROText>Semnalele nu sunt un mecanism IPC valid.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>Signals can be used with threads.</ENText>
+		<ROText>Semnalele pot fi folosite in threaduri.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>SMTP(Simple Mail Transfer Protocol) can be used for sending files.</ENText>
+		<ROText>SMTP se poate folosi pentru a trimite fisiere.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>SMTP is used for displaying web pages.</ENText>
+		<ROText>SMTP se foloseste pentru a afisa pagini de web.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>SOCK_DGRAM is used for TCP.</ENText>
+		<ROText>SOCK_DGRAM se foloseste pentru TCP.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>SOCK_DGRAM is used for UDP.</ENText>
+		<ROText>SOCK_DGRAM se foloseste pentru UDP.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>Socket ports 0-1023 are reserved.</ENText>
+		<ROText>Porturile 0-1023 sunt rezervate.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>Sockets are bidirectional.</ENText>
+		<ROText>Socketurile sunt bidirectionale.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>In order to communicate between 2 threads of the same process we cannot use sockets.</ENText>
+		<ROText>Pentru a comunica intre 2 threaduri ale aceluiasi proces nu putem sa folosim sockets.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>Sockets are unidirectional.</ENText>
+		<ROText>Socketurile sunt unidirectionale.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>Socket-urile pot fi folosite pentru comunicarea intre 2 threaduri ale aceluiasi proces.</ENText>
+		<ROText>Sockets can be used to communicate between 2 threads of the same process.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>Sockets can't be used to communicate between 2 processes on the same machine.</ENText>
+		<ROText>Socketurile nu pot fi folosite pentru a comunica intre 2 procese ce ruleaza pe aceeasi masina.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>Some concurrent programs are parallel.</ENText>
+		<ROText>Unele programe concurente sunt paralele.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>Some parallel programs are distributed.</ENText>
+		<ROText>Unele programe paralele sunt distribuite.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>SSH stands for Secure Shell.</ENText>
+		<ROText>SSH=Secure Shell.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>SSH stands for Secure Shell Server.</ENText>
+		<ROText>SSH=Secure Shell Server.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>Standard port for email service is 80.</ENText>
+		<ROText>Portul standard pentru serviciul de mail este 80.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>Standard port for web service is 80.</ENText>
+		<ROText>Portul standard pentru serviciul de web este 80</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>Standard port for ssh service is 21.</ENText>
+		<ROText>Portul standard pentru ssh este 21.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>Standard port for ssh service is 22.</ENText>
+		<ROText>Portul standard pentru ssh este 22.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>Standard port for ssh service is 2222.</ENText>
+		<ROText>Portul standard pentru ssh este 2222.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>Standard port for web service is 8080.</ENText>
+		<ROText>Portul standard pentru serviciul de web este 8080.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>Starvation never occurs when shared resources are made unavailable for long periods by greedy threads.</ENText>
+		<ROText>Cand o resursa partajata este blocata exclusiv de un thread lacom nu poate aparea fenomenul de starvation.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>Starvation occurs when shared resources are made unavailable for long periods by greedy threads.</ENText>
+		<ROText>Cand o resursa partajata este blocata exclusiv de un thread lacom poate aparea fenomenul de starvation.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>Suspending a process means suspending all the threads of the process.</ENText>
+		<ROText>Suspendare unui proces presupune suspendarea tuturor threadurilor component.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>system() can be used to execute external programs.</ENText>
+		<ROText>system() poate fi folosit pentru a executa programe externe.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>TCP allows much larger packets to be sent over the network, improving application performance.</ENText>
+		<ROText>TCP este mai performant deoarece poate transmite packete mult mai mari.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>Socket ports 0-65535 are reserved.</ENText>
+		<ROText>Porturile 0-65535 sunt rezervate.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>TCP consumes fewer computer resources by not maintaining connection state.</ENText>
+		<ROText>TCP consuma mai putine resurse deoarece nu mentine starea conexiunii.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>TCP does not guarantee that individual packets of a transmission will arrive in order.</ENText>
+		<ROText>TCP nu garanteaza ordinea transmisiei pachetelor.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>TCP does not include a retry mechanism to prevent losing packets.</ENText>
+		<ROText>TCP nu are un mecanism de retransmitere pentru a preveni pierderea de pachete.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>TCP guarantees that individual packets of a transmission will arrive in order.</ENText>
+		<ROText>TCP garanteaza ordinea transmisiei pachetelor.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>UDP guarantees that individual packets of a transmission will arrive in order</ENText>
+		<ROText>UDP garanteaza ordinea transmisiei pachetelor</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>TCP includes a retry mechanism to prevent losing packets.</ENText>
+		<ROText>TCP are un mecanism de retransmitere pentru a preveni pierderea de pachete.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>TCP is a connection oriented protocol.</ENText>
+		<ROText>TCP este un protocol cu conexiune permanenta.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>TCP is a connectionless oriented protocol.</ENText>
+		<ROText>TCP nu este un protocol cu conexiune permanenta.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>UDP is a connectionless oriented protocol.</ENText>
+		<ROText>UDP este un protocol cu conexiune permanenta.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>TCP este intotdeauna mai rapid decat UDP.</ENText>
+		<ROText>TCP is always faster than UDP.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>TCP is an IPC mechanism.</ENText>
+		<ROText>TCP este un mecanism IPC.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>TCP este uneori mai rapid decat UDP.</ENText>
+		<ROText>TCP is sometimes faster than UDP.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>TCP isn't an encryption protocol.</ENText>
+		<ROText>TCP nu este un protocol de criptare.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>TCP isn't an IPC mechanism.</ENText>
+		<ROText>TCP nu este un mecanism IPC.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>TCP isn't a transport layer protocol.</ENText>
+		<ROText>TCP nu este un protocol de nivel transport.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>TCP stands for Transmission Control Protocol.</ENText>
+		<ROText>TCP=Transmission Control Protocol.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>The calling process does not wait for popen to finish execution.</ENText>
+		<ROText>Procesul apelant nu asteapta ca functia popen sa-ti incheie executia.</ROText>
+		<Value>True</Value>
+	</Question>
+	
+	<Question>
+		<ENText>The calling process waits for popen to finish execution.</ENText>
+		<ROText>Procesul apelant asteapta ca functia popen sa-ti incheie executia.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>The child process will sometimes finish before the parent process.</ENText>
+		<ROText>Procesul fiu se termina uneori inaintea procesului parinte.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>The child process will never finish before the parent process.</ENText>
+		<ROText>Procesul fiu nu se termina niciodata inaintea procesului parinte.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>The FIFO must be opened at both ends before data can be passed.</ENText>
+		<ROText>FIFO trebuie deschis la ambele capete inainte sa se poata comunica prin el.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>The message queue may be deleted when the process ends.</ENText>
+		<ROText>Coada de mesaje poate fi stearsa la terminarea procesului.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>The parent process will always finish before the child process.</ENText>
+		<ROText>Procesul parinte se termina intotdeauna inaintea procesului fiu.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>The port 443 is most often used by HTTP.</ENText>
+		<ROText>Portul 443 este de obicei folosit de catre HTTP.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>There is a limited number of processes that can be created on a system.</ENText>
+		<ROText>Exista un numar limitat de procese ce pot fi create pe un sistem.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>There is a limited number of threads that can be created on a system.</ENText>
+		<ROText>Exista un numar limitat de threaduri ce pot fi create pe un sistem.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>There is an unlimited number of processes that can be created on a system.</ENText>
+		<ROText>Exista un numar nelimitat de procese ce pot fi create pe un sistem.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>Threads are independent executing entities within a same process.</ENText>
+		<ROText>Thread-urile sunt entitati de calcul independente in cadrul aceluiasi proces.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>Threads can be synchronized using mutexes.</ENText>
+		<ROText>Threadurile pot fi sincronizate folosind mutex.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>Threads can be synchronized using semaphores.</ENText>
+		<ROText>Threadurile pot fi sincronizate folosind semafoare.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>Threads can only be synchronised using mutex.</ENText>
+		<ROText>Threadurile pot fi sincronizate doar prin mutex.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>Threads can't access global data of their parent process.</ENText>
+		<ROText>Threadurile nu pot accesa variabilele globale ale procesului parinte.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>Are global variables cloned by child processes?</ENText>
+		<ROText>Variabilele globale sunt clonate in procesul fiu?</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>Threads can't be synchronized using semaphores.</ENText>
+		<ROText>Threadurile nu pot fi sincronizate folosind semafoare.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>Threads share the same stack.</ENText>
+		<ROText>Threadurile partajeaza aceeasi zona de stiva.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>To check a mutex state, one can call pthread_mutex_trylock().</ENText>
+		<ROText>Pentru a verifica starea unui mutex se poate apela pthread_mutex_trylock().</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>pipe() crates a bidirectional pipe which can be used for IPC.</ENText>
+		<ROText>pipe() creeaza un canal bidirectional ce poate fi folosit pentru IPC.</ROText>
+		<Value>false</Value>
+	</Question>
+	<Question>
+		<ENText>All parallel programs are concurrent.</ENText>
+		<ROText>Toate programele paralele sunt concurente.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>UDP and TCP are both network layer protocols.</ENText>
+		<ROText>UDP si TCP sunt ambele protocoale de nivel retea.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>UDP can be implemented using TCP.</ENText>
+		<ROText>UDP poate fi implementat folosind TCP.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>UDP consumes fewer computer resources by not maintaining connection state.</ENText>
+		<ROText>UDP consuma mai putine resurse deoarece nu mentine starea conexiunii.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>UDP does error checking.</ENText>
+		<ROText>UDP verifica eventualele erori.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>UDP does not include a retry mechanism to prevent losing packets.</ENText>
+		<ROText>UDP nu are un mecanism de retransmitere pentru a preveni pierderea de pachete.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>UDP includes a retry mechanism to prevent losing packets.</ENText>
+		<ROText>UDP are un mecanism de retransmitere pentru a preveni pierderea de pachete.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>UDP is always faster than TCP.</ENText>
+		<ROText>UDP este intotdeauna mai rapid ca TCP.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>UDP is sometimes faster than TCP.</ENText>
+		<ROText>UDP e uneori mai rapid decat TCP.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>UDP is an encryption protocol.</ENText>
+		<ROText>UDP este un protocol de criptare.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>UDP is an IPC mechanism.</ENText>
+		<ROText>UDP este un mecanism IPC.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>UDP is never faster than TCP.</ENText>
+		<ROText>UDP nu e niciodata mai rapid ca TCP.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>UDP is not always faster than TCP.</ENText>
+		<ROText>UDP nu este intotdeauna mai rapid ca TCP.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>UDP isn't a transport layer protocol.</ENText>
+		<ROText>UDP nu este un protocol de nivel transport.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>UDP isn't an encryption protocol.</ENText>
+		<ROText>UDP nu este un protocol de criptare.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>UDP isn't an IPC mechanism.</ENText>
+		<ROText>UDP nu este un mecanism IPC.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>UDP = User Data Protocol.</ENText>
+		<ROText>UDP stands for User Data Protocol.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>UDP stands for User Datagram Policy.</ENText>
+		<ROText>UDP=User Datagram Policy.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>UDP stands for User Datagram Protocol.</ENText>
+		<ROText>UDP=User Datagram Protocol.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>Using mutexes can lead to deadlock.</ENText>
+		<ROText>Folosirea mutex-urilor poate duce la deadlock.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>Using mutexes can sometimes lead to deadlock.</ENText>
+		<ROText>Folosirea mutex-urilor poate duce uneori la deadlock.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>Using mutexes can never lead to deadlock.</ENText>
+		<ROText>Folosirea mutex-urilor nu poate duce la deadlock.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>Using processes instead of threads can prevent deadlock.</ENText>
+		<ROText>Folosind procese in loc de threaduri poate preveni dedlock.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>Using processes instead of threads can prevent livelock.</ENText>
+		<ROText>Folosind procese in loc de threaduri poate preveni livelock.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>Using processes instead of threads can prevent starvation.</ENText>
+		<ROText>Folosind procese in loc de threaduri poate preveni starvation.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>Using semaphores can lead to deadlock.</ENText>
+		<ROText>Folosirea semafoarelor poate duce la deadlock.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>Using semaphores can never lead to deadlock.</ENText>
+		<ROText>Folosirea semafoarelor nu poate duce la deadlock.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>Using semaphores can sometimes lead to deadlock.</ENText>
+		<ROText>Folosirea semafoarelor poate duce uneori la deadlock.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>wait() can be used to wait on at most one child.</ENText>
+		<ROText>wait() asteapta dupa cel mult un proces fiu.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>wait() can be used to wait on one or more children.</ENText>
+		<ROText>wait() poate fi folosita pentru a astepta unul sau mai multi fii.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>When a message queue is full the old messages will be overwritten.</ENText>
+		<ROText>Cand coda de mesaje este pina, mesajele vechi vor fi suprascrise.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>When using FIFO, data is not written to the file system.</ENText>
+		<ROText>Cand se foloseste FIFO datele nu sunt scrise in sistemul de fisiere.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>write() from a pipe will block if pipe is empty.</ENText>
+		<ROText>write() intr-un pipe gol va astepta.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>Zombie processes are processes in the blocked state.</ENText>
+		<ROText>Procesele zombie sunt procese in starea blocat.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>Zombie processes are processes in the terminated state.</ENText>
+		<ROText>Procesele zombie sunt procese in starea terminated.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>2 mutexes are required for a deadlock.</ENText>
+		<ROText>2 mutex-uri sunt necesare pentru a aparea deadlock.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>pipe() returns 0 on error.</ENText>
+		<ROText>pipe() returneaza 0 in caz de eroare.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>FTP can be used for file transfer.</ENText>
+		<ROText>FTP poate fi folosit pentru transfer de fisiere.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>On success, bind system call returns 1.</ENText>
+		<ROText>La succes bind() returneaza 1.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>La succes bind() returneaza 0</ENText>
+		<ROText>La succes bind() returneaza 0.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>The system wait() call suspends the execution of the calling process when a child process ends.</ENText>
+		<ROText>Apelul system wait() suspenda executia procesului apelant pana la terminarea unui fiu.</ROText>
+		<Value>True</Value>
+	</Question>
+	<Question>
+		<ENText>The system wait() call suspends the execusion of the child process.</ENText>
+		<ROText>Apelul system wait() suspenda executia procesului fiu.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>Message queues cannot be used by related processes.</ENText>
+		<ROText>Cozile de mesaje nu pot fi folosite de procese inrudite.</ROText>
+		<Value>False</Value>
+	</Question>
+	<Question>
+		<ENText>Message queues allow processes to exchange data in the form of messages.</ENText>
+		<ROText>Cozile de mesaje permit proceselor sa schimbe date sub forma de mesaje.</ROText>
+		<Value>True</Value>
+	</Question>
+</Questions>
